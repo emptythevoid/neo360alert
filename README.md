@@ -5,7 +5,7 @@ Neo 360 can be set up with alerts in the Client Diary. However this only appears
 
 This was a one-off project for a client and was my first and only Chrome extension.  
 
-##Packing and installing:
+## Packing and installing:
 
 To pack the extension, open Chrome and go to chrome://extensions, exnable Developer mode, and choose Pack extension.
 Navigate to a directory with content.js, icon.png, and manifest.json and choose Select.
