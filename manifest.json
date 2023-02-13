@@ -1,0 +1,19 @@
+{
+    "name": "Neo360 Client Diary Alert",
+    "description": "Popups a browser alert if a Client Diary alert is present for a patient",
+    "version": "0.1",
+    "permissions": [
+        "tabs","activeTab"
+    ],
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+        {
+        "matches": ["https://usa.neo360international.com/Secure/Module/NX/AddEdit.aspx", "https://usa.neo360international.com/Secure/Module/NC/AddEdit.aspx"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+        }
+    ], 
+    "manifest_version": 3
+}
